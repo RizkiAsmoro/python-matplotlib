@@ -1,6 +1,5 @@
 '''
 Matplotlib line
-
 Using linestyle or ls
 '''
 import matplotlib.pyplot as plt

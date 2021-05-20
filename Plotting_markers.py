@@ -1,6 +1,7 @@
 '''
 Matplotlib
 Plotting Markers
+
 Marker references :
 'o'	Circle	
 '*'	Star	
