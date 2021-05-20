@@ -1,7 +1,6 @@
 '''
 Matplotlib
 Plotting - Basic Pyplot
-
 '''
 #Plotting using x and y points
 import matplotlib.pyplot as plt
