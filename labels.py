@@ -10,7 +10,7 @@ x = np.array([0,3,4,6,8,10])
 y = np.array([0,5,3,7,10,12])
 
 pl.plot(x,y, marker = 'o', mfc = 'red')
-pl.title("This is title")
-pl.xlabel("lebel x", c = 'red')
-pl.ylabel("label y", c = 'yellow')
+pl.title("This is title", loc = 'left') # loc for positioning the title, the dafault is center
+pl.xlabel("lebel x", c = 'red') #another attribute can be added
+pl.ylabel("label y", c = 'yellow') #another attribute can be added
 pl.show()
