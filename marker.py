@@ -33,13 +33,15 @@ import numpy as np
 
 #Marker stars only 1 plot
 yp = np.array([0,7,6,13,10,17])
+plt.subplot(2,2,1)
 plt.plot(yp, marker ="*") 
-plt.show()
+
 
 #plotting color and line
 yp = np.array([0,7,6,13,10,17])
+plt.subplot(2,2,2)
 plt.plot(yp, 'o:r') 
-plt.show()
+
 '''
 Line references:
 '-'	 Solid line	
@@ -61,6 +63,7 @@ Collor references:
 #marker size and color
 # ms for the size, mfc(markerfacecolor), mec(markeredgecolor)
 yp = np.array([0,7,6,13,10,17])
+plt.subplot(2,2,3)
 plt.plot(yp, marker = 'o', ms = 20, mfc = 'y', mec = 'r') 
 plt.show()
 
