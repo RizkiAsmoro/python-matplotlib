@@ -32,9 +32,9 @@ plt.colorbar()
 
 
 #combine random color and size
-x = np.random.randint(50, size=(50))
-y = np.random.randint(50, size=(50))
-color = np.random.randint(50, size=(50))
+x = np.random.randint(50, size=(50)) #create random array value ,range to 50  for x-axis and size of dots 
+y = np.random.randint(50, size=(50)) #create random array value ,range to 50  for y-axis and size of dots
+color = np.random.randint(50, size=(50)) #create random array value ,range to 50  for for size
 size = 5 * np.random.randint(50, size=(50))
 plt.subplot(1,2,2)
 plt.scatter(x,y, c=color, s=size, alpha=0.5, cmap="nipy_spectral")
